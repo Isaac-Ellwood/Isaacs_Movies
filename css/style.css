@@ -1,0 +1,51 @@
+/* --- Wrapper grid layout --- */
+.wrapper
+{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "l b"
+    "n n"
+    "ls m"
+    "f f";
+    grid-gap: 5px;
+}
+
+/* Logo */
+.logo
+{
+    grid-area: l;
+    background-image: url(../images/logo.png);
+}
+
+/* Banner */
+.banner
+{
+    grid-area: b;
+}
+
+/* Navigaton bar */
+.nav
+{
+    grid-area: n;
+    font-size: 20px;
+}
+
+/* Left side navigaton */
+.left-side
+{
+    grid-area: ls;
+}
+
+/* Main box */
+.main
+{
+    grid-area: m;
+}
+
+/* Footer */
+.footer
+{
+    grid-area: f;
+}
