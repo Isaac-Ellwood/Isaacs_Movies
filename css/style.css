@@ -17,12 +17,14 @@
 {
     grid-area: l;
     background-image: url(../images/logo.png);
+    height: 300px;
 }
 
 /* Banner */
 .banner
 {
     grid-area: b;
+    height: 300px;
 }
 
 /* Navigaton bar */

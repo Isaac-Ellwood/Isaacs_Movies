@@ -1,6 +1,9 @@
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <!-- link to stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- favicon -->
+        <link rel="icon" type="image/x-icon" href="images/logo.png">
     </head>
     <body>
         <div class="wrapper">
