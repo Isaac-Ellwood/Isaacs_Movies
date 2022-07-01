@@ -1,3 +1,16 @@
+/* Body */
+body
+{
+    background-image: url(../images/background\(full\).png);
+}
+
+/* Box */
+.box
+{
+    border: #000 solid 1px;
+    padding: 10px;
+}
+
 /* --- Wrapper grid layout --- */
 .wrapper
 {
@@ -10,6 +23,7 @@
     "ls m"
     "f f";
     grid-gap: 5px;
+    font-family: 'Merriweather', serif;
 }
 
 /* Logo */
@@ -25,12 +39,17 @@
 {
     grid-area: b;
     height: 300px;
+    background-color: #730217cc;
+    color: #f22233;
+    font-size: 60px;
+    text-align: center;
 }
 
 /* Navigaton bar */
 .nav
 {
     grid-area: n;
+    background-color: #c616f2;
     font-size: 20px;
 }
 
@@ -38,16 +57,63 @@
 .left-side
 {
     grid-area: ls;
+    background-color: aqua;
 }
 
 /* Main box */
 .main
 {
     grid-area: m;
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "mh mh"
+    "ml mr";
+    color: #27011a;
+}
+
+/* Main heading */
+.main-head
+{
+    grid-area: mh;
+    background-color: #795fd9;
+}
+
+/* Main left */
+.main-left
+{
+    grid-area: ml;
+    background-color: #795fd9e5;
+}
+
+/* Main right */
+.main-right
+{
+    grid-area: mr;
+    background-color: #795fd9b0;
+}
+
+/* Browse */
+.browse
+{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+/* Browse item */
+.item
+{
+    padding: 10px;
 }
 
 /* Footer */
 .footer
 {
     grid-area: f;
+    background-color: #730217;
+    color: #f22233;
 }

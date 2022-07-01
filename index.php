@@ -1,19 +1,13 @@
-<html>
-    <head>
-        <!-- link to stylesheet -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- favicon -->
-        <link rel="icon" type="image/x-icon" href="images/logo.png">
-    </head>
-    <body>
-        <div class="wrapper">
-            <div class="logo box"></div><!--end logo-->
-            <div class="banner box">
-                Isaac's Movie Review Website
-            </div><!--end banner-->
-            <div class="left-side box"></div><!--end left side-->
-            <div class="main box"></div><!--end main-->
-            <div class="footer box"></div><!--end footer-->
-        </div><!--end wrapper-->
-    </body>
-</html>
+<?php include("top_bit.html");?>
+            <div class="main box">
+                <div class="main-head box">
+                    <h1>Title</h1>
+                </div><!--end main-head-->
+                <div class="main-left box">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sapiente reiciendis error aliquam reprehenderit impedit mollitia molestias quaerat quo expedita voluptates facilis quos natus et corrupti, nobis a assumenda aut.
+                </div><!--end main-left-->
+                <div class="main-right box">
+                    naimn right
+                </div><!--end main-right-->
+            </div><!--end main-->
+<?php include("bottom_bit.html");?>
