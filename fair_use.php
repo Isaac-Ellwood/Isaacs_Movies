@@ -5,11 +5,21 @@
                 </div><!--end main-head-->
                 <div class="main-left box">
                     All images used are used under faiar use for educational purposes. Images can be found at:
-                    <br>link
-                    <br>link
-                    <br>link
-                    <br>link
-                    <br>link
+                    <br><a href="https://www.imdb.com/title/tt0499549/"></a>
+                    <br><a href="https://www.imdb.com/title/tt8171236/"></a>
+                    <br><a href="https://www.imdb.com/title/tt1192628/"></a>
+                    <br><a href="https://en.wikipedia.org/wiki/Tenet_%28film%29"></a>
+                    <br><a href="https://www.20thcenturystudios.com.au/movies/edward-scissorhands"></a>
+                    <br><a href=""></a>
+                    <br><a href=""></a>
+                    <br><a href=""></a>
+                    <br><a href=""></a>
+                    <br><a href=""></a>
+                    <br><a href=""></a>
+                    <br><a href=""></a>
+                    <br><a href=""></a>
+                    <br><a href=""></a>
+                    <br><a href=""></a>
                 </div><!--end main-left-->
                 <div class="main-right box">
                     naimn right
