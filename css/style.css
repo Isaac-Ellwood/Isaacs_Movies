@@ -38,8 +38,8 @@ body
 .banner
 {
     grid-area: b;
-    background-color: #730217cc;
-    color: #f22233;
+    background-color: #6239C3;
+    color: #ffffff;
     font-size: 60px;
     text-align: center;
 }
@@ -48,7 +48,7 @@ body
 .nav
 {
     grid-area: n;
-    background-color: #c616f2;
+    background-color: #BF2604;
     font-size: 20px;
 }
 
@@ -56,7 +56,7 @@ body
 .left-side
 {
     grid-area: ls;
-    background-color: aqua;
+    background-color: #D98E04;
 }
 
 /* Main box */
@@ -77,27 +77,27 @@ body
 .main-head
 {
     grid-area: mh;
-    background-color: #795fd9;
+    background-color: #F2B8DF;
 }
 
 /* Main left */
 .main-left
 {
     grid-area: ml;
-    background-color: #795fd9e5;
+    background-color: #F2B8DF;
 }
 
 /* Main right */
 .main-right
 {
     grid-area: mr;
-    background-color: #795fd9b0;
+    background-color: #F2B8DF;
 }
 
 /* Browse */
 .browse
 {
-    background-color: aqua;
+    background-color: #F2B8DF;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -113,6 +113,6 @@ body
 .footer
 {
     grid-area: f;
-    background-color: #730217;
+    background-color: #6239C3;
     color: #f22233;
 }
