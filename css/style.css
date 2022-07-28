@@ -1,7 +1,7 @@
 /* Body */
 body
 {
-    background-image: url(../images/background\(full\).png);
+    background-image: url(../images/background\(small\).png);
 }
 
 /* Box */
@@ -38,7 +38,7 @@ body
 .banner
 {
     grid-area: b;
-    background-color: #6239C3;
+    background-color: #BF2604;
     color: #ffffff;
     font-size: 60px;
     text-align: center;
@@ -48,7 +48,7 @@ body
 .nav
 {
     grid-area: n;
-    background-color: #BF2604;
+    background-color: #D98E04;
     font-size: 20px;
 }
 
@@ -56,14 +56,14 @@ body
 .left-side
 {
     grid-area: ls;
-    background-color: #D98E04;
+    background-color: #F2BE22;
 }
 
 /* Main box */
 .main
 {
+    padding: 0px;
     grid-area: m;
-    
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
@@ -113,6 +113,6 @@ body
 .footer
 {
     grid-area: f;
-    background-color: #6239C3;
+    background-color: #BF2604;
     color: #f22233;
 }
