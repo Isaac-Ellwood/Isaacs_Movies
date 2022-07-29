@@ -5,10 +5,10 @@
                 </div><!--end main-head-->
                 <div class="main-left box">
                     <form action="action_page.php" method="post">
-                        <label for="fname">First name:</label>
-                        <input type="text" id="fname" name="fname"><br><br>
-                        <label for="lname">Last name:</label>
-                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="fname">Name:</label>
+                        <input type="text" id="name" name="name" class="input" cols="40"><br><br>
+                        <label for="lname">Message:</label>
+                        <textarea id="message" name="message" class="input" cols="40" rows="5"></textarea><br><br>
                         <input type="submit" value="Submit">
                     </form>
                 </div><!--end main-left-->

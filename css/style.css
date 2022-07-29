@@ -116,3 +116,10 @@ body
     background-color: #BF2604;
     color: #f22233;
 }
+
+/* Inputs */
+.input
+{
+    width: 1000px;
+    color:#000;
+}
