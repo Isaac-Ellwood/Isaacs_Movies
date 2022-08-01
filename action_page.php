@@ -12,7 +12,8 @@
             </div><!--end main-->
             <?php              
 
-                echo ini_set()
+                echo 'SMTP = ' . ini_get('SMTP') . "\n";
+                echo 'smtp_port = ' . ini_get('smtp_port') . "\n";
 
                 $name = $_POST['name'];
                 $message = $_POST['message'];
