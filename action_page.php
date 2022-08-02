@@ -1,5 +1,5 @@
 <?php include("top_bit.html");?>
-            <div class="main box">
+            <div class="main">
                 <div class="main-head box">
                     <h1>Response title</h1>
                 </div><!--end main-head-->

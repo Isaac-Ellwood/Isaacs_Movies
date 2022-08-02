@@ -2,6 +2,7 @@
 body
 {
     background-image: url(../images/background\(small\).png);
+    scrollbar-color: #ffffff;
 }
 
 /* Anchor */
@@ -66,6 +67,7 @@ a:hover
     font-size: 20px;
     font-variant: small-caps;
     text-align: center;
+    font-size: 40px;
 }
 
 /* Left side navigaton */
@@ -74,6 +76,7 @@ a:hover
     grid-area: ls;
     background-color: #F2BE22;
     font-variant: small-caps;
+    border-radius: 5px;
 }
 
 /* Main box */
@@ -93,6 +96,8 @@ a:hover
 /* Main heading */
 .main-head
 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     grid-area: mh;
     background-color: #F2B8DF;
 }
@@ -101,7 +106,9 @@ a:hover
 .main-left
 {
     grid-area: ml;
+    color: #2e0b03;
     background-color: #F2B8DF;
+    border-bottom-left-radius: 20px;
 }
 
 /* Main right */
@@ -115,6 +122,9 @@ a:hover
 /* Browse */
 .browse
 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 20px;
     background-color: #F2B8DF;
     color: #27011a;
     display: grid;
@@ -142,4 +152,5 @@ a:hover
 {
     width: 1000px;
     color:#000;
+    font-family: 'Josefin Sans', sans-serif;
 }
