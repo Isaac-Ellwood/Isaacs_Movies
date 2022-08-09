@@ -1,10 +1,12 @@
 <?php include("top_bit.html");?>
             <div class="main">
                 <div class="main-head box">
-                    <h1>Title</h1>
+                    <h1>Welcome</h1>
                 </div><!--end main-head-->
                 <div class="main-left box">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sapiente reiciendis error aliquam reprehenderit impedit mollitia molestias quaerat quo expedita voluptates facilis quos natus et corrupti, nobis a assumenda aut.
+                    Welcome to this wonderful website, where I review movies to the best of my ability.<br>
+                    I have tried to review a large range of movies, however most are just Christopher Nolan movies.<br>
+                    I hope you enjoy your time here.
                 </div><!--end main-left-->
                 <div class="main-right box">
                     naimn right

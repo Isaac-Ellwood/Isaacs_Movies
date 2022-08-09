@@ -1,6 +1,6 @@
 <?php include("top_bit.html");?>
             <div class="browse box">
-                <a href="#"><div class="item"><img src="images/movie_posters/Avatar.jpg" alt="Avatar"><br>Avatar<br>James Cameron<br>2009</div></a>
+                <a href="Review.php"><div class="item"><img src="images/movie_posters/Avatar.jpg" alt="Avatar"><br>Avatar<br>James Cameron<br>2009</div></a>
                 <a href="#"><div class="item"><img src="images/movie_posters/ThisTown.jpg" alt="This Town"><br>This Town<br>David White<br>2020</div></a>
                 <a href="#"><div class="item"><img src="images/movie_posters/Rango.jpg" alt="Rango"><br>Rango<br>Gore Verbinski<br>2011<br>Music by: Hans Zimmer</div></a>
                 <a href="#"><div class="item"><img src="images/movie_posters/Tenet.jpg" alt="Tenet"><br>Tenet<br>Christopher Nolan<br>2020</div></a>

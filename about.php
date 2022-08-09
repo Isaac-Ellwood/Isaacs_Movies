@@ -8,7 +8,7 @@
                     I am a big fan of movies.
                 </div><!--end main-left-->
                 <div class="main-right box">
-                    Fun fact: My favourite movie is not featured on this site, Chronicle.
+                    Fun fact: My favourite movie is Chronicle, which is not featured on this site.
                 </div><!--end main-right-->
             </div><!--end main-->
 <?php include("bottom_bit.html");?>
