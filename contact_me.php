@@ -4,12 +4,12 @@
                     <h1>Contact Me</h1>
                 </div><!--end main-head-->
                 <div class="main-left box">
-                    <form action="action_page.php" method="post">
-                        <label for="fname">Name:</label>
-                        <input type="text" id="name" name="name" class="input" cols="40"><br><br>
-                        <label for="lname">Message:</label>
-                        <textarea id="message" name="message" class="input" cols="40" rows="5"></textarea><br><br>
-                        <input type="submit" value="Submit">
+                    <form class="contact-form" action="contactform.php" method="post">
+                        <input type="text" name="name" placeholder="Full name">
+                        <input type="text" name="email" placeholder="Your e-mail">
+                        <input type="text" name="subject" placeholder="Subject">
+                        <textarea name="message" placeholder="Message"></textarea>
+                        <button type="submit" name="submit">SEND MAIL</button>
                     </form>
                 </div><!--end main-left-->
                 <div class="main-right box">
