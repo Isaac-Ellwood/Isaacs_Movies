@@ -112,6 +112,25 @@ a:hover
     border-bottom-left-radius: 20px;
 }
 
+/* link */
+a.left
+{
+    color: #7c0a54;
+}
+  
+/* mouse over link */
+a.left:hover 
+{
+    color: #d13b9d;
+}
+  
+/* selected link */
+a.left:active 
+{
+    color: rgb(157, 93, 241);
+}
+  
+
 /* Main right */
 .main-right
 {
@@ -123,6 +142,7 @@ a:hover
 /* Browse */
 .browse
 {
+    grid-area: m;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     border-bottom-left-radius: 20px;
