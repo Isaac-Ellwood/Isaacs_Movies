@@ -9,7 +9,6 @@
                     I hope you enjoy your time here.
                 </div><!--end main-left-->
                 <div class="main-right box">
-                    naimn right
                 </div><!--end main-right-->
             </div><!--end main-->
 <?php include("bottom_bit.html");?>
