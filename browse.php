@@ -11,8 +11,6 @@
                 <a href="#"><div class="item"><img src="images/movie_posters/Ocean'sEleven.jpg" alt="Ocean's Eleven"><br>Ocean's Eleven<br>Steven Soderbergh<br>2001</div></a>
                 <a href="#"><div class="item"><img src="images/movie_posters/Inception.jpg" alt="Inception"><br>Inception<br>Christopher Nolan<br>2010</div></a>
                 <a href="#"><div class="item"><img src="images/movie_posters/Interstellar.jpg" alt="Interstellar"><br>Interstellar<br>Christopher Nolan<br>2014</div></a>
-                <a href="#"><div class="item"><img src="images/movie_posters/FantasticMrFox.jpg" alt="Fantastic Mr. Fox"><br>Fantastic Mr. Fox<br>Wes Anderson<br>2009</div></a>
                 <a href="#"><div class="item"><img src="images/movie_posters/HuntfortheWilderpeople.jpg" alt="Hunt for the Wilderpeople"><br>Hunt for the Wilderpeople<br>Taika Waititi<br>2016</div></a>
-                <a href="#"><div class="item"><img src="images/movie_posters/Grease.jpg" alt="Grease"><br>Grease<br>Randal Kleiser<br>1978</div></a>
             </div><!--end main-->
 <?php include("bottom_bit.html");?>
