@@ -115,10 +115,13 @@ a.left:active {
 /* Main heading */
 .main-head
 {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-inline-start: #6239C3 solid 40px;
+    writing-mode: horizontal-tb;
     grid-area: mh;
     background-color: #F2B8DF;
+    font-size: 30px;
 }
 
 /* Main left */
@@ -127,7 +130,7 @@ a.left:active {
     grid-area: ml;
     color: #2e0b03;
     background-color: #F2B8DF;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 0px;
 }
 
 /* link */
@@ -169,6 +172,7 @@ a.left:active
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    font-size: 40px;
     font-variant: small-caps;
 }
 
@@ -183,7 +187,7 @@ a.left:active
 {
     grid-area: f;
     background-color: #BF2604;
-    color: #f22233;
+    color: #000000;
 }
 
 /* Inputs */
