@@ -4,7 +4,8 @@
                     <h1>Fair Use</h1>
                 </div><!--end main-head-->
                 <div class="main-left box">
-                    All images used are used under fair use for educational purposes. Movie Images can be found at:
+                    All images used are used under fair use for educational purposes.
+                    <br>Movie Images can be found at:
                     <br><a href="https://www.imdb.com/title/tt0499549/">link</a>
                     <br><a href="https://www.imdb.com/title/tt8171236/">link</a>
                     <br><a href="https://www.imdb.com/title/tt1192628/">link</a>
@@ -16,9 +17,7 @@
                     <br><a href="https://www.justwatch.com/nz/movie/oceans-eleven">link</a>
                     <br><a href="https://www.imdb.com/title/tt1375666/">link</a>
                     <br><a href="https://www.imdb.com/title/tt0816692/">link</a>
-                    <br><a href="https://www.imdb.com/title/tt0432283/">link</a>
                     <br><a href="https://en.wikipedia.org/wiki/Hunt_for_the_Wilderpeople">link</a>
-                    <br><a href="https://www.imdb.com/title/tt0077631/">link</a>
                     <br>Other images:
                     <br><a href="https://unsplash.com/photos/vZJdYl5JVXY">link</a>
                     <br><a href="https://unsplash.com/photos/wMkaMXTJjlQ">link</a>
