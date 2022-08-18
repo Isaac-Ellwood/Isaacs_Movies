@@ -2,7 +2,6 @@
 body
 {
     background-image: url(../images/background\(small\).png);
-    scrollbar-color: #ffffff;
 }
 
 /* Anchor */
@@ -32,7 +31,7 @@ a:hover
     grid-template-columns: 300px 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "b b"
+    "lb lb"
     "n n"
     "ls m"
     "f f";
@@ -40,12 +39,22 @@ a:hover
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.logobanner
+{
+    padding: 0px;
+    grid-area: lb;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "l b";
+    background-color: #BF2604;
+}
+
 /* Logo */
 .logo
 {
     grid-area: l;
-    background-image: url(../images/logo.png);
-    height: 300px;
 }
 
 /* Banner */
@@ -53,12 +62,12 @@ a:hover
 {
     padding: 0%;
     grid-area: b;
-    background-color: #BF2604;
     color: #ffffff;
     font-size: 60px;
     font-variant: small-caps;
     text-shadow: 0px 0px 20px #2e0b03;
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 /* Navigaton bar */
@@ -224,4 +233,4 @@ button
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-  }
+}
